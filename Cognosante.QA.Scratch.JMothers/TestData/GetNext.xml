@@ -1,0 +1,20 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+   <s:Body>
+      <Execute xmlns="http://schemas.microsoft.com/xrm/2011/Contracts/Services" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+         <request xmlns:a="http://schemas.microsoft.com/xrm/2011/Contracts">
+            <a:Parameters xmlns:b="http://schemas.datacontract.org/2004/07/System.Collections.Generic">
+               <a:KeyValuePairOfstringanyType>
+                  <b:key>UserId</b:key>
+                  <b:value i:type="a:EntityReference">
+                     <a:Id>{70B81A4C-9D9F-E511-814F-12FD32A00031}</a:Id>
+                     <a:LogicalName>systemuser</a:LogicalName>
+                     <a:Name i:nil="true"/>
+                  </b:value>
+               </a:KeyValuePairOfstringanyType>
+            </a:Parameters>
+            <a:RequestId i:nil="true"/>
+            <a:RequestName>cog_GetNextCase</a:RequestName>
+         </request>
+      </Execute>
+   </s:Body>
+</s:Envelope>
