@@ -1,7 +1,7 @@
 ﻿using System;
 using Quintity.TestFramework.Core;
 
-namespace Quintity.QA.Scratch.Test
+namespace Cognosante.QA.Scratch.Test
 {
     [TestClass]
     public class MyTestClass : TestClassBase
@@ -16,6 +16,8 @@ namespace Quintity.QA.Scratch.Test
             try
             {
                 Setup();
+
+
 
                 TestMessage = stringParam;
                 TestVerdict = TestVerdict.Pass;
